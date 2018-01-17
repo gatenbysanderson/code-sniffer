@@ -7,7 +7,7 @@ The coding standards set by the company
 You can run the following command in full:
 
 ```
-$ phpcs --standard=vendor/gatenbysanderson/code-sniffer/src/phpcs.xml
+$ phpcs --standard=vendor/gatenbysanderson/code-sniffer/src/phpcs.xml directory1 directory 2
 ```
 
 Or you can add this to your `composer.json` file which allows you to run `composer gscs`:
@@ -17,7 +17,7 @@ Or you can add this to your `composer.json` file which allows you to run `compos
   //...
   
   "scripts": {
-    "gscs": "phpcs --standard=vendor/gatenbysanderson/code-sniffer/src/phpcs.xml"
+    "gscs": "phpcs --standard=vendor/gatenbysanderson/code-sniffer/src/phpcs.xml directory1 directory2"
   }
   
   //...
