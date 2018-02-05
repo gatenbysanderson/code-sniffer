@@ -1,6 +1,12 @@
 # Code Sniffer
 
-The coding standards that have been set and agreed by the development team
+The coding standards that have been set and agreed by the development team.
+
+## Licence
+
+Copyright &copy; 2017, 2018 GatenbySanderson Ltd.
+
+This project is open source software released under the terms of the MIT licence: see [LICENCE.md](LICENCE.md).
 
 ## Getting Started
 
